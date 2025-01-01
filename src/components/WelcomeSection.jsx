@@ -17,7 +17,7 @@ export default function WelcomeSection() {
         </div>
       </div>
       <div className="absolute bottom-[80px] left-[50%]">
-        <img className="animate-[popon_1s_ease_forwards_2.5s] w-10 opacity-0" src="./src/imgs/down-arrow.png" alt="down-arrow" />
+        <img className="animate-[popon_1s_ease_forwards_2.5s] w-10 opacity-0" src="/imgs/down-arrow.png" alt="down-arrow" />
       </div>
     </section>
   );

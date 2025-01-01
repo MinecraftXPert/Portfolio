@@ -6,25 +6,25 @@ export default function Header() {
         <ul className="animate-[popon_1s_ease_forwards_1.5s] flex text-[15px] gap-[40px] opacity-0">
           <li>
             <a href="#">
-              <img className="w-6" src="./src/imgs/house.png" alt="house" />
+              <img className="w-6" src="/imgs/house.png" alt="house" />
               Home
             </a>
           </li>
           <li>
             <a href="#">
-              <img className="w-6" src="./src/imgs/about.png" alt="about" />
+              <img className="w-6" src="/imgs/about.png" alt="about" />
               About
             </a>
           </li>
           <li>
             <a href="#">
-              <img className="w-6" src="./src/imgs/projects.png" alt="projects" />
+              <img className="w-6" src="/imgs/projects.png" alt="projects" />
               Projects
             </a>
           </li>
           <li>
             <a href="#">
-              <img className="w-6" src="./src/imgs/phone.png" alt="contact-phone" />
+              <img className="w-6" src="/imgs/phone.png" alt="contact-phone" />
               Contact
             </a>
           </li>
