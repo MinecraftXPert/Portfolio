@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav > ul > li > a {
+  @apply flex items-center gap-1 relative;
+}
+
+nav ul li a::before {
+  @apply bg-black w-full h-[2px] absolute mt-[5px] top-full scale-0 origin-center transition-[0.5s_ease];
+  content: "";
+}
+
+nav ul li a:hover::before {
+  @apply scale-100;
+}
+
+@keyframes appear-top {
+  0% {
+    transform: translateY(-110%);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes popon {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes welcome {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
