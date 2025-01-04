@@ -14,7 +14,6 @@ nav ul li a::before {
 nav ul li a:hover::before {
   @apply scale-100;
 }
-
 @keyframes appear-top {
   0% {
     transform: translateY(-110%);
