@@ -1,7 +1,7 @@
 export default function WelcomeSection() {
   return (
     <section className="m-[100px] h-[70vh]">
-      <div className="flex animate-[welcome_1s_ease_forwards_2.0s] opacity-0">
+      <div className="flex justify-around animate-[welcome_1s_ease_forwards_2.0s] opacity-0">
         <div>
           <h1 className="text-[46px]">
             Welcome to<br></br>my portfolio!
@@ -13,11 +13,8 @@ export default function WelcomeSection() {
           </p>
         </div>
         <div>
-
+          <img className="w-[500px]" src="/imgs/coding.svg" alt="" />
         </div>
-      </div>
-      <div className="absolute bottom-[80px] left-[50%]">
-        <img className="animate-[popon_1s_ease_forwards_2.5s] w-10 opacity-0" src="/imgs/down-arrow.png" alt="down-arrow" />
       </div>
     </section>
   );
