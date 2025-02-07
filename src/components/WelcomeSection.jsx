@@ -1,6 +1,6 @@
 export default function WelcomeSection() {
   return (
-    <section className="m-[100px] h-[70vh]">
+    <section className="m-[90px] h-[60vh]">
       <div className="flex justify-around animate-[welcome_1s_ease_forwards_2.0s] opacity-0">
         <div>
           <h1 className="text-[46px]">
