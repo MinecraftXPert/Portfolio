@@ -27,7 +27,7 @@ export default function About() {
         <div>
           <img className="w-[350px] rounded-[10px]" src="/imgs/bobert.png" alt="pic of bobert the robot" />
         </div>
-      </div>
+      </div><br /><br /><br /><br />
     </section>
   );
 }

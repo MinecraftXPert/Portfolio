@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Header() {
   return (
     <header className="animate-[appear-top_1s_ease_forwards_1s] -translate-y-[110%] shadow-yes flex justify-between items-center p-[30px_100px]">
@@ -5,22 +7,22 @@ export default function Header() {
       <nav className="z-10">
         <ul className="animate-[popon_1s_ease_forwards_1.5s] flex text-[15px] gap-[40px] opacity-0">
           <li>
-            <a href="#">
+            <Link to="/">
               <img className="w-6" src="/imgs/house.png" alt="house" />
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#">
+            <Link to="/about">
               <img className="w-6" src="/imgs/about.png" alt="about" />
               About
-            </a>
+              </Link>
           </li>
           <li>
-            <a href="#">
+            <Link to="/programs">
               <img className="w-6" src="/imgs/projects.png" alt="projects" />
               Projects
-            </a>
+            </Link>
           </li>
           <li>
             <a href="#">
