@@ -32,9 +32,9 @@ export default function Programs() {
       <h2 className="text-center text-[20px]">
         Below are some of my favorite projects
       </h2>
-      <div>
+      <div className="grid grid-cols-3 gap-[50px] ml-[100px] mr-[100px] mt-8">
         {projectsList}
-      </div>
+      </div><br /><br />
     </section>
   );
 }

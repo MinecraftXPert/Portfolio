@@ -5,7 +5,7 @@ window.onload = function () {
   Particles.init({
     selector: ".background",
     color: "#a6a6a6",
-    maxParticles: 120
+    maxParticles: 120,
   });
 };
 
