@@ -6,6 +6,7 @@ import Projects from "./Projects";
 import React from "react";
 import data from "../skills";
 import projects from "../projects";
+import Header from "./Header";
 
 export default function Programs() {
   const cardsList = data.map((card) => {
@@ -13,11 +14,12 @@ export default function Programs() {
   });
 
   const projectsList = projects.map((project) => {
-    return <Projects kye={project.key} project={project} />;
+    return <Projects key={project.id} project={project} />;
   });
 
   return (
     <section>
+      <Header />
       <br />
       <br />
       <h1 className="text-center text-[42px] text-underline underline underline-offset-[17px] decoration-[3px]">
@@ -32,7 +34,7 @@ export default function Programs() {
       <h2 className="text-center text-[20px]">
         Below are some of my favorite projects
       </h2>
-      <div className="grid grid-cols-3 gap-[50px] ml-[100px] mr-[100px] mt-8">
+      <div className="grid grid-cols-3 gap-[50px] ml-[50px] mr-[50px] mt-8 z-10">
         {projectsList}
       </div><br /><br />
     </section>

@@ -2,10 +2,10 @@ import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
-    <header className="animate-[appear-top_1s_ease_forwards_1s] -translate-y-[110%] shadow-yes flex justify-between items-center p-[30px_100px]">
-      <h1 className="animate-[popon_1s_ease_forwards_1.5s] text-[30px] opacity-0">Noah</h1>
+    <header className="shadow-yes flex justify-between items-center p-[30px_100px]">
+      <h1 className="text-[30px]">Noah</h1>
       <nav className="z-10">
-        <ul className="animate-[popon_1s_ease_forwards_1.5s] flex text-[15px] gap-[40px] opacity-0">
+        <ul className="flex text-[15px] gap-[40px]">
           <li>
             <Link to="/">
               <img className="w-6" src="/imgs/house.png" alt="house" />

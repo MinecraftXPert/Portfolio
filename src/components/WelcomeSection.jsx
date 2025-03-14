@@ -5,7 +5,7 @@
 export default function WelcomeSection() {
   return (
     <section className="h-[70vh] flex items-center justify-center mb-[12rem]">
-      <div className="flex justify-between gap-[150px] items-center animate-[welcome_1s_ease_forwards_2.0s] opacity-0">
+      <div className="flex justify-between gap-[150px] items-center animate-[welcome_1s_ease_forwards_1.0s] opacity-0">
         <div>
           <h1 className="text-[46px]">
             Welcome to<br></br>my portfolio!
